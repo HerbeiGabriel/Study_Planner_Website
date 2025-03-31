@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "BruceWain";
+  src: local("BruceWain"),
+    url("./fonts/Bruce Forever.ttf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Digit";
+  src: url("./fonts/DS-DIGIT.TTF") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Digit2";
+  src: url("./fonts/Digital Dismay.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "Naru";
+  src: url("./fonts/Naru Sans Demo.ttf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Technology";
+  src: url("./fonts/Technology-Bold.ttf") format("opentype");
+  font-weight: bolder;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App{
+  align-items: center;
+}
+
+.clock{
+  text-align: center;
+  font-size: 55px;
+  font-family: "Technology";
+  letter-spacing: 6px;
+  font-weight: bolder;
+}
+
+.App .timer{
+  font-size: 30px;
+  font-family: "Digit2";
+}
+
+.creating{
+  align-self: auto;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.mainSlides{
+  padding-left: 30px;
+}
+
+.selected{
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
